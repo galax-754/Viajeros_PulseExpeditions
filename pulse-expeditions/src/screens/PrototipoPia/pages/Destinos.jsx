@@ -6,7 +6,7 @@ const destinos = [
   {
     nombre: "Alpes Suizos",
     descripcion: "Paraíso del esquí y la escalada",
-    imagen: "..//Aples suizos.jpg"
+    imagen: "..//Alpes suizos.jpg"
   },
   {
     nombre: "Costa Rica",

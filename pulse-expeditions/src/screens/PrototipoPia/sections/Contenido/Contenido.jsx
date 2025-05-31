@@ -101,7 +101,7 @@ export const Contenido = () => {
       <section className="hero">
         <div 
           className="hero__banner" 
-          style={{backgroundImage: 'url(..//depth-6--frame-0.png)'}}
+          style={{backgroundImage: 'url(..//Fondo.png)'}}
         >
           <div className="hero__contenido">
             <h2 className="hero__titulo">Vive las Aventuras Más Extremas del Mundo</h2>
