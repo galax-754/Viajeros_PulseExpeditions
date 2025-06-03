@@ -39,7 +39,7 @@ export const PiePagina = () => {
 
       {/* Texto de derechos de autor */}
       <p className="pie-pagina__copyright">
-        © 2022 Pulse Expeditions, Inc. Todos los derechos reservados.
+        © 2025 Pulse Expeditions, Inc. Todos los derechos reservados.
       </p>
     </footer>
   );

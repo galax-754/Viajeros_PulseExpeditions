@@ -21,7 +21,7 @@ export const Reservar = () => {
 
   // Efecto para cargar datos cuando se está editando una reserva
   useEffect(() => {
-    if (location.state) {
+    if (location.state) { 
       setFormData({
         nombre: location.state.nombre || "",
         email: location.state.email || "",
@@ -61,7 +61,7 @@ export const Reservar = () => {
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value //Asignmos nuevo valor
     });
   };
 

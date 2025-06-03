@@ -2,7 +2,7 @@ import React from "react";
 
 // Componente que muestra la información sobre la empresa
 // Incluye una descripción general y estadísticas importantes
-export const AcercaDe = () => {
+export const AcercaDe = () => { //Declaro un componente
   return (
     <div className="acerca">
       {/* Título principal de la sección */}

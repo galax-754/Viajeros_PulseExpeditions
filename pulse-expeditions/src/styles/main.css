@@ -22,7 +22,13 @@ html {
 body {
   margin: 0;
   font-family: 'Be Vietnam Pro', sans-serif;
-  -webkit-font-smoothing: antialiased;
+  
+  /*Sirve para navegadores basados en WebKit (como Chrome y Safari).
+Hace que el texto se vea más nítido y delgado.*/
+  -webkit-font-smoothing: antialiased; 
+ 
+ /*Funciona en Firefox en macOS.
+fuerza el suavizado del texto usando escala de grises.*/
   -moz-osx-font-smoothing: grayscale;
   font-size: 1rem;
   line-height: 1.5;
@@ -62,7 +68,7 @@ body {
   flex-direction: column;
 }
 
-/* Hero */
+/* Hero o sección principal*/
 .hero {
   position: relative;
   width: 100%;
@@ -297,7 +303,7 @@ body {
 .encabezado__logo {
   width: 2rem;
   height: 2rem;
-  background-image: url(/vector---0.svg);
+  background-image: url(#);
   background-size: 100% 100%;
 }
 
